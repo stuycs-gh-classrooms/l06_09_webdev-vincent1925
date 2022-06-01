@@ -1,5 +1,5 @@
-var rectWidth;
-var rectHeight;
+var rectWidth = 80;
+var rectHeight = 40;
 var x;
 var y;
 var vx;
@@ -13,8 +13,6 @@ function setup() {
   y = random(height-rectHeight);
   vx = random(-15, 15);
   vy = random(-15, 15);
-  rectWidth = 80;
-  rectHeight = 40;
 }
 
 function draw() {
